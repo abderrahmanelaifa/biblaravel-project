@@ -11,3 +11,5 @@ Route::resource("books", App\Http\Controllers\LivreController::class);
 Route::resource("clients", App\Http\Controllers\ClientController::class);
 
 Route::resource("loans", App\Http\Controllers\EmpruntController::class);
+
+Route::redirect('/', '/books');
